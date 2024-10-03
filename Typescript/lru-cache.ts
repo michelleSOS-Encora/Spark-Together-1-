@@ -14,6 +14,7 @@ class NodeT {
 
 class LRUCache {
     private capacity :number;
+    // Somehow Linter marks error, but is for the target compiler, using latest target as ES modules can work
     private cache : Map<number, NodeT>;
     private head: NodeT;
     private tail: NodeT;
